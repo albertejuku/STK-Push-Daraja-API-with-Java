@@ -58,6 +58,7 @@ public class AccessToken {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        
         StringBuilder token = new StringBuilder();
         for (byte b : res) {
             token.append((char) b);
