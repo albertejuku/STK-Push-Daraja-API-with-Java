@@ -15,7 +15,7 @@ public class STKPush {
         OkHttpClient client = new OkHttpClient().newBuilder().build();
         MediaType mediaType = MediaType.parse("application/json");
 
-        TransactionDetails details = new TransactionDetails("1", "254715698127");
+        TransactionDetails details = new TransactionDetails("1", "2547000*10");//mobile no (10 digit chars)
 
         System.out.println(details.transactionDetails());
 
