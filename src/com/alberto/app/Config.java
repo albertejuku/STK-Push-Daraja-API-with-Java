@@ -40,6 +40,7 @@ public class Config {
         for (byte b : key) {
             password.append((char) b);
         }
+        
         return String.valueOf(password);
     }
     
