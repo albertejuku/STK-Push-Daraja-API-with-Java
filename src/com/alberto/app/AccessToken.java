@@ -66,6 +66,7 @@ public class AccessToken {
 
         JsonObject jsonObject = (new JsonParser()).parse(String.valueOf(token)).getAsJsonObject();
         return jsonObject.get("access_token").toString().replace("\"", "");
+        
     }
     
 }
