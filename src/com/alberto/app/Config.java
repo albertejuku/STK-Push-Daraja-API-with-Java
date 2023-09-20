@@ -29,7 +29,6 @@ public class Config {
     public static final String CONSUMER_KEY = "USE YOUR APP'S CONSUMER_KEY";
     public static final String CONSUMER_SECRET = "USE YOUR APP'S CONSUMER_SECRET";
 
-
     public static String getPASSWORD() {
         // creating our base64 password
         // password = Base64.encode(shortcode + passkey + timestamp) in string format
